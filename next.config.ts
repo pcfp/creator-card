@@ -4,7 +4,6 @@ const repo = 'creator-card';
 
 const nextConfig: NextConfig = {
   output: 'export',
-  distDir: 'dist',
   basePath: `/${repo}`,
   assetPrefix: `/${repo}/`,
   experimental: {
