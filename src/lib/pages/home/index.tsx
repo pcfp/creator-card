@@ -120,7 +120,7 @@ export const Home = () => {
                   Financial tools built for creators
                 </h2>
                 <p className="max-w-[900px] text-gray-400 md:text-xl/relaxed">
-                  Traditional banks don't understand the creator economy. We do. Our card is designed specifically for
+                  Traditional banks don&apos;t understand the creator economy. We do. Our card is designed specifically for
                   your unique financial needs.
                 </p>
               </div>
@@ -420,7 +420,7 @@ export const Home = () => {
                 </p>
               </div>
               <div className="rounded-lg border border-gray-800 bg-gray-900 p-6">
-                <h3 className="text-lg font-bold text-white">What if I don't meet the subscriber requirements?</h3>
+                <h3 className="text-lg font-bold text-white">What if I don&apos;t meet the subscriber requirements?</h3>
                 <p className="mt-2 text-gray-400">
                   We consider multiple factors beyond just subscriber count. If you have strong engagement, consistent
                   revenue, or growth in other metrics, we encourage you to apply. We evaluate each creator holistically.
@@ -431,7 +431,7 @@ export const Home = () => {
                   How are the rewards different from regular credit cards?
                 </h3>
                 <p className="mt-2 text-gray-400">
-                  Our rewards are specifically designed for creator expenses. You'll earn 5x points on camera equipment,
+                  Our rewards are specifically designed for creator expenses. You&apos;ll earn 5x points on camera equipment,
                   editing software, lighting, audio gear, and other creator tools. Plus 3x on travel and dining, which
                   are common creator expenses.
                 </p>
