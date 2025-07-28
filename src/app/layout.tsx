@@ -14,11 +14,11 @@ type RootLayoutProps = {
   children: React.ReactNode;
 };
 
-const APP_NAME = 'nextarter-chakra';
+const APP_NAME = 'Creator Card';
 
 export const metadata: Metadata = {
-  title: { default: APP_NAME, template: '%s | nextarter-chakra' },
-  description: 'Next.js + chakra-ui + TypeScript template',
+  title: { default: APP_NAME, template: '%s | Creator Card' },
+  description: 'Credit Card Designed For Creators',
   applicationName: APP_NAME,
   appleWebApp: {
     capable: true,
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     url: 'https://nextarter-chakra.sznm.dev',
-    title: 'nextarter-chakra',
-    description: 'Next.js + chakra-ui + TypeScript template',
+    title: 'Creator Card',
+    description: 'Credit Card Designed For Creators',
     images: {
       url: 'https://og-image.sznm.dev/**nextarter-chakra**.sznm.dev.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fsznm.dev%2Favataaars.svg&widths=250',
       alt: 'nextarter-chakra.sznm.dev og-image',
