@@ -40,7 +40,6 @@ export const metadata: Metadata = {
     creator: '@agstnsnathaniel',
     card: 'summary_large_image',
   },
-  manifest: '/manifest.ts',
 };
 
 export const viewport: Viewport = {

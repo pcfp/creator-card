@@ -1,11 +1,6 @@
 import { NextConfig } from 'next';
 
-const repo = 'creator-card';
-
 const nextConfig: NextConfig = {
-  output: 'export',
-  basePath: `/${repo}`,
-  assetPrefix: `/${repo}/`,
   experimental: {
     optimizePackageImports: ["@chakra-ui/react"]
   },
@@ -14,7 +9,7 @@ const nextConfig: NextConfig = {
     dirs: ['src'],
   },
   images: {
-    domains: ['techcrunch.com', 'image.cnbcfm.com', 'cdn.prod.website-files.com'],
+    domains: ['techcrunch.com', 'image.cnbcfm.com', 'cdn.prod.website-files.com', 'cdn-icons-png.flaticon.com'],
   },
 };
 
