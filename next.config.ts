@@ -8,6 +8,9 @@ const nextConfig: NextConfig = {
   eslint: {
     dirs: ['src'],
   },
+  images: {
+    domains: ['techcrunch.com', 'image.cnbcfm.com', 'cdn.prod.website-files.com', 'cdn-icons-png.flaticon.com'],
+  },
 };
 
 export default nextConfig;

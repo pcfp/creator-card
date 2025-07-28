@@ -26,19 +26,25 @@
     "up-interactive": "pnpm up -i",
     "up-latest": "pnpm up-interactive -L",
     "release": "cross-env HUSKY=0 commit-and-tag-version",
-    "push-release": "git push --follow-tags origin main",
-    "prepare": "husky"
+    "push-release": "git push --follow-tags origin main"
   },
   "dependencies": {
     "@chakra-ui/react": "^3.22.0",
     "@emotion/react": "^11.14.0",
+    "@radix-ui/react-dialog": "^1.1.14",
+    "@radix-ui/react-slot": "^1.2.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "commit-and-tag-version": "^12.5.1",
     "knip": "^5.62.0",
+    "lucide-react": "^0.526.0",
     "next": "^15.4.2",
     "next-themes": "^0.4.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-icons": "^5.5.0"
+    "react-icons": "^5.5.0",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@chakra-ui/cli": "^3.22.0",
@@ -49,14 +55,16 @@
     "@eslint/js": "^9.31.0",
     "@playwright/test": "^1.54.1",
     "@types/react": "^19.1.8",
+    "autoprefixer": "^10.4.21",
     "commitizen": "^4.3.1",
     "cross-env": "^7.0.3",
     "eslint": "^9.31.0",
     "eslint-config-next": "^15.4.2",
-    "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
     "next-sitemap": "^4.2.3",
+    "postcss": "^8.5.6",
     "prettier": "^3.6.2",
+    "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3"
   }
 }
